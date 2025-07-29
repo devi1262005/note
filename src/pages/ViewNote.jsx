@@ -28,7 +28,7 @@ const ViewNote = () => {
     <div style={{ maxWidth: 500, margin: '2rem auto' }}>
       <h2>{note.title}</h2>
       <p>{note.content}</p>
-      <button onClick={() => navigate('/dashboard')}>Back to Dashboard</button>
+      <button onClick={() => navigate('/dashboard')}>Memory atlas</button>
     </div>
   );
 };
